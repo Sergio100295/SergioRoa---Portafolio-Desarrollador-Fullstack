@@ -22,46 +22,147 @@
     </ul>
   </nav>
 
-  <!-- ENCABEZADO -->
-  <header class="hero-section d-flex align-items-center">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-7 text-white">
-          <h1 class="display-4">Desarrollador Full-Stack</h1>
-          <p class="lead">con experiencia en diseño web y una sólida trayectoria en desarrollo de videojuegos, especializado en el área de audio.</p>
-          <div class="social-links mt-3">
-            <a href="mailto:micorreo@hotmail.com"><i class="fas fa-envelope"></i></a>
-            <a href="https://www.linkedin.com/in/sergioroarocha/" target="_blank"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-        <div class="col-md-5 text-center">
-          <img src="https://via.placeholder.com/300x300" class="img-fluid rounded-circle" alt="Imagen de Sergio">
+<!-- ENCABEZADO -->
+<header class="hero-section d-flex align-items-center text-center">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10 text-white">
+        <h1 class="display-4">Desarrollador Full-Stack</h1>
+        <p class="lead">creatividad en innovaciones tecnologicas.</p>
+        <div class="social-links mt-3">
+          <a href="mailto:scrr10@hotmail.com"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/sergioroarocha/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
       </div>
     </div>
-  </header>
+  </div>
+</header>
+
   
 
-  <!-- ACERCA DE MÍ -->
+<!-- ACERCA DE MÍ -->
 <section id="aboutme" class="about-section py-5">
-    <div class="container">
-      <h2 class="text-center mb-4">Acerca de mí</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-10">
-          <p>
-            Soy desarrollador Full-Stack con una fuerte inclinación hacia la creatividad tecnológica. Mi experiencia combina el desarrollo y diseño web con el mundo de los videojuegos, donde he trabajado especialmente en el área de audio.
-          </p>
-          <p>
-            Disfruto crear soluciones interactivas que conecten tecnología y arte. Desde diseñar interfaces intuitivas hasta diseñar paisajes sonoros inmersivos, cada proyecto ha sido una oportunidad para aprender y crecer.
-          </p>
-          <p>
-            Estoy en constante búsqueda de nuevos desafíos que me permitan desarrollar productos útiles, funcionales y con una identidad propia.
-          </p>
+  <div class="container">
+    <h2 class="text-center mb-4">Acerca de mí</h2>
+    <div class="row align-items-center">
+      <div class="col-md-7">
+        <p>
+          Soy desarrollador Full-Stack con una fuerte inclinación hacia la creatividad tecnológica. Mi experiencia combina el desarrollo y diseño web con el mundo de los videojuegos, donde he trabajado especialmente en el área de audio.
+        </p>
+        <p>
+          Disfruto crear soluciones interactivas que conecten tecnología y arte. Desde diseñar interfaces intuitivas hasta diseñar paisajes sonoros inmersivos, cada proyecto ha sido una oportunidad para aprender y crecer.
+        </p>
+        <p>
+          Estoy en constante búsqueda de nuevos desafíos que me permitan desarrollar productos útiles, funcionales y con una identidad propia.
+        </p>
+      </div>
+      <div class="col-md-5 text-center">
+        <img src="imagenes/1.jpg" class="img-fluid rounded-circle" alt="Imagen de Sergio">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROYECTOS -->
+<section id="projects" class="projects-section py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Proyectos</h2>
+    <div class="row">
+
+      <!-- Proyecto 1: GitHub -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagenes/Github.png" class="card-img-top" alt="Proyectos en GitHub">
+          <div class="card-body text-center">
+            <h5 class="card-title">Proyectos en GitHub</h5>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#modalGithub">Ver más</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 2: E-commerce -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagenes/Arteria.png" class="card-img-top" alt="E-commerce en desarrollo">
+          <div class="card-body text-center">
+            <h5 class="card-title">Comercio electrónico</h5>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#modalEcommerce">Ver más</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 3: Videojuegos -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagenes/EfectoStudios.jpg" class="card-img-top" alt="Experiencia en videojuegos">
+          <div class="card-body text-center">
+            <h5 class="card-title">Audio para videojuegos</h5>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#modalAudio">Ver más</button>
+          </div>
         </div>
       </div>
     </div>
-  </section>
-  
+  </div>
+</section>
+
+<!-- MODALES -->
+
+<!-- Modal GitHub -->
+<div class="modal fade" id="modalGithub" tabindex="-1" role="dialog" aria-labelledby="modalGithubLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Proyectos en GitHub</h5>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>Aquí encontrarás varios proyectos de desarrollo web, aplicaciones Java y prácticas con colecciones, todos disponibles en mi repositorio de GitHub.</p>
+        <p><strong>Lenguajes usados:</strong> Java, HTML, CSS, JavaScript</p>
+        <a href="https://github.com/sergioroarocha" target="_blank" class="btn btn-dark">Ver repositorio</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal E-commerce -->
+<div class="modal fade" id="modalEcommerce" tabindex="-1" role="dialog" aria-labelledby="modalEcommerceLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Comercio electrónico</h5>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>Proyecto en desarrollo de una plataforma de e-commerce para productos deportivos, con interfaz amigable, carrito de compras y panel de administrador.</p>
+        <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+        <p>Aún en construcción.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Audio para videojuegos -->
+<div class="modal fade" id="modalAudio" tabindex="-1" role="dialog" aria-labelledby="modalAudioLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Experiencia en videojuegos</h5>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>Trabajé como generalista de audio en un estudio de desarrollo de videojuegos, diseñando ambientes sonoros, efectos especiales y colaborando en la integración de audio en Unity.</p>
+        <p><strong>Herramientas:</strong> Reaper, Unity, Fmod</p>
+        <p>Experiencia colaborativa dentro de equipos multidisciplinarios.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SCRIPTS NECESARIOS PARA MODALES BOOTSTRAP 4 -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>
+
